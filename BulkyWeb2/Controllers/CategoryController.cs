@@ -87,7 +87,7 @@ namespace BulkyWeb2.Controllers
         [HttpPost, ActionName("Delete")] //this explains that this endpoints action name is delete even though we have a different name 
         public IActionResult DeletePost(int? id)
         {
-            Category obj = _db.Categories.Find(id);
+            Category? obj = _db.Categories.Find(id);
             if(obj==null)
             {
                 return NotFound();
