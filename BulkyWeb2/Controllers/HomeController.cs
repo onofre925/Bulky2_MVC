@@ -1,4 +1,5 @@
-﻿using BulkyWeb2.Models;
+﻿using Bulky2.Models;
+//using BulkyWeb2.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
